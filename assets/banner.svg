@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="fikus22pu — профиль GitHub">
+  <title>fikus22pu</title>
+
+  <!-- фон -->
+  <rect width="1200" height="340" fill="#F7F4ED"/>
+  <circle cx="1000" cy="176" r="148" fill="#F0EBDF"/>
+
+  <!-- растение -->
+  <g transform="translate(0 -6)">
+    <g stroke-linecap="round" fill="none" stroke="#4A5F42" stroke-width="3">
+      <path d="M1000 244 C 998 208, 1006 176, 1004 142"/>
+      <path d="M1002 208 C 980 194, 950 180, 927 171"/>
+      <path d="M1002 192 C 1030 176, 1056 162, 1076 152"/>
+      <path d="M1000 226 C 974 218, 950 208, 930 200"/>
+      <path d="M1003 216 C 1030 210, 1054 202, 1070 196"/>
+      <path d="M1004 142 C 994 128, 986 118, 982 112"/>
+      <path d="M1004 142 C 1014 128, 1022 120, 1026 116"/>
+      <path d="M1001 248 C 1010 238, 1054 232, 1058 230"/>
+    </g>
+
+    <defs>
+      <g id="leaf">
+        <path d="M0 0 C 26 -28, 68 -31, 92 -4 C 66 22, 24 22, 0 0 Z"/>
+        <path d="M4 0 C 32 -7, 62 -9, 86 -4" fill="none" stroke="#22301F" stroke-opacity="0.22" stroke-width="1.6" stroke-linecap="round"/>
+      </g>
+    </defs>
+
+    <g fill="#46603E">
+      <use href="#leaf" transform="translate(927 171) rotate(202) scale(1.02)"/>
+      <use href="#leaf" transform="translate(930 200) rotate(172) scale(1.06)"/>
+    </g>
+    <g fill="#6B8A5E">
+      <use href="#leaf" transform="translate(1076 152) rotate(-16) scale(0.96)"/>
+      <use href="#leaf" transform="translate(1070 196) rotate(14) scale(1.0)"/>
+      <use href="#leaf" transform="translate(1058 226) rotate(-6) scale(0.72)"/>
+      <use href="#leaf" transform="translate(1004 142) rotate(-90) scale(0.88)"/>
+    </g>
+    <g fill="#96B183">
+      <use href="#leaf" transform="translate(982 112) rotate(228) scale(0.86)"/>
+      <use href="#leaf" transform="translate(1026 116) rotate(-52) scale(0.86)"/>
+    </g>
+
+    <!-- горшок -->
+    <ellipse cx="1000" cy="308" rx="60" ry="7" fill="#E6DFD1"/>
+    <path d="M958 250 H1042 L1029 300 H971 Z" fill="#C1765A"/>
+    <path d="M1000 250 H1042 L1029 300 H1000 Z" fill="#B06A4E"/>
+    <rect x="946" y="232" width="108" height="18" rx="5" fill="#CE8467"/>
+    <ellipse cx="1000" cy="250" rx="38" ry="6" fill="#3E342A"/>
+  </g>
+
+  <!-- текст -->
+  <g font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">
+    <text x="88" y="116" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="3.2" fill="#8A917F">ПРОФИЛЬ GITHUB</text>
+    <text x="86" y="196" font-size="76" font-weight="700" letter-spacing="-1.6" fill="#22301F">fikus22pu</text>
+    <rect x="88" y="219" width="56" height="3" rx="1.5" fill="#C1765A"/>
+    <text x="88" y="262" font-size="22" fill="#5A6552">Программирую для себя: маленькие проекты и эксперименты.</text>
+    <text x="88" y="294" font-size="22" fill="#5A6552">Без спешки, по шагам — и всё складываю сюда.</text>
+  </g>
+</svg>
